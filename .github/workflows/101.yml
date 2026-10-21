@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: First Job Print
-        run: echo "Hello ${{ vars.WORKFLOW_VAR }}, welcome to python with actions"
+        run: echo "Hello $WORKFLOW_VAR, welcome to python with actions"
