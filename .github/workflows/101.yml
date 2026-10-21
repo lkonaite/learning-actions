@@ -1,0 +1,12 @@
+name: Learning GitHub Actions
+
+on: 
+  push: 
+    branches: ["main", "master"]
+    paths:
+      - "!src/app/file.index.html"
+jobs:
+  First-print-job:
+    runs-on: macos-14
+    steps:
+      - run: echo "Hello world"
