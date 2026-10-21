@@ -17,4 +17,6 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: First Job Print
-        run: echo "Hello $WORKFLOW_VAR, welcome to python with actions"
+        env:
+          hello_user: "you are user"
+        run: echo "Hello $WORKFLOW_VAR, welcome to python with actions $hello_user"
