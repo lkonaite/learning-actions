@@ -5,13 +5,17 @@ on:
     branches: ["main", "master"]
     paths:
       - "README.md"
+      - "./"
 
   schedule:
     - cron: "*/1 * * * *"
+env:
+  WORKFLOW_VAR: "LENOX KONAITE"
+  
 jobs:
   First-print-job:
     runs-on: ubuntu-22.04
     steps:
       - name: First Job Print
         shell: python
-        run: print("Hello Lenox, welcome to python with actions")
+        run: print("Hello ${ WORKFLOW_VAR }, welcome to python with actions")
