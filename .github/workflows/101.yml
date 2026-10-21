@@ -6,6 +6,7 @@ on:
 
 jobs:
   First-print-job:
-    runs-on: macos-14
+    runs-on: ubuntu-22.04
     steps:
-      - run: echo "Hello world"
+      - run: echo "Hello world \
+            to Programming"
