@@ -18,4 +18,4 @@ jobs:
     steps:
       - name: First Job Print
         shell: python
-        run: print("Hello $WORKFLOW_VAR, welcome to python with actions")
+        run: printf("Hello %s, welcome to python with actions", $WORKFLOW_VAR)
