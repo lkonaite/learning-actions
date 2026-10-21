@@ -8,5 +8,6 @@ jobs:
   First-print-job:
     runs-on: ubuntu-22.04
     steps:
-      - run: echo "Hello world 
-            | to Programming"
+      - name: First Job Print
+        shell: python
+        run: echo "Hello Lenox, welcome to python with actions"
