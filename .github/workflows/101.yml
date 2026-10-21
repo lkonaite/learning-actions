@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: First Job Print
         shell: python
-        run: printf"Hello Lenox, welcome to python with actions"
+        run: print("Hello Lenox, welcome to python with actions")
