@@ -8,5 +8,5 @@ jobs:
   First-print-job:
     runs-on: ubuntu-22.04
     steps:
-      - run: echo "Hello world \
-            to Programming"
+      - run: echo "Hello world 
+            | to Programming"
