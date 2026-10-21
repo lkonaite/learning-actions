@@ -2,4 +2,4 @@
 >  Work scenarios
 > > We will be looking at various triggers like schedule, workflow_dispatch
 >
-> > Demo Purposes and Learning
+> > Demo Purposes and Learning.
